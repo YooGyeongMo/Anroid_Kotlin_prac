@@ -28,4 +28,20 @@ fun main() {
 
     print(days.contentToString())
 
+    val fruits = arrayOf(Fruit("Apple",2000.0),Fruit("pear",20.0))
+
+//    print(fruit.contentToString())
+
+    for(fruit in fruits){
+        println("${fruit.name}")
+    }
+    for(index in fruits.indices) { //indices 인덱스 알려주눈것
+        println("${fruits[index].name} 은 $index")
+    }
+
+    val mix = arrayOf("Mon","Tues","Wed",1,2,3,Fruit("alomond",1.0))
+
+    println(mix.contentToString())
 }
+
+data class Fruit(val name: String, val price: Double)

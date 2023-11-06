@@ -44,4 +44,4 @@ fun main() {
     println(mix.contentToString())
 }
 
-data class Fruit(val name: String, val price: Double)
+//data class Fruit(val name: String, val price: Double)

@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.gmlab.benew_practice_myself"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.gmlab.benew_practice_myself"

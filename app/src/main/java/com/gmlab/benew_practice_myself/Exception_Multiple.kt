@@ -16,4 +16,14 @@ fun main(args: Array<String>){
         println("parent 예외 class")
     }
     println("예외 try-catch 이후 출력해뿌기 ~ ")
-}부
+}
+
+//nested 중첩 예외 try block
+/*
+* try
+* { code block here
+*     try { // code block
+* }     catch {
+*  } catch {
+* }*/
+

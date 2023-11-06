@@ -1,22 +1,31 @@
 package com.gmlab.benew_practice_myself
 
 fun main() {
+//    배열은 자료형에 맞춰야한다.
+//    배열은 인덱스 갯수만큼 초기화 된 만큼 사용가능 더 추가하면 out of bound 발생
 //    val numbers = intArrayOf(1,2,3,4,5,6)
 
     val numbers = arrayOf(1,2,3,4,5,6)
 
 //    print(numbers.contentToString())
 //    print(numbers1.contentToString())
-    for(element in numbers){
-        print(" ${element+2}")
+//    for(element in numbers){
+//        print(" ${element+2}")
+//
+//    }
+//    for(element in numbers){
+//        print(" $element")
+//    }
+    println("첫 배열 ${numbers.contentToString()}")
+    numbers[0] = 6
+    numbers[1] = 5
+    numbers[4] = 2
+    numbers[5] = 1
+    println("수정된 배열 ${numbers.contentToString()}")
+//    print(numbers[3])
 
-    }
-    for(element in numbers){
-        print(" $element")
-    }
+    val days = arrayOf("Sun", "Mon","Tues","Wed","Thurs","Fri","Sat")
 
-    print(numbers[3])
-
-
+    print(days.contentToString())
 
 }
